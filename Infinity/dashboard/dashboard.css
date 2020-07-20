@@ -1,0 +1,192 @@
+body {
+    margin: unset;
+}
+
+.dashboard {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
+/* .dashboard>* {
+    padding: 20px;
+} */
+
+.header {
+    padding: 0px;
+}
+
+.header nav {
+    background: #07f3d8d2;
+    display: flex;
+    flex-direction: row;
+}
+
+.header-logo {
+    text-align: left;
+}
+
+img {
+    width: 100%;
+    height: 12vw;
+    padding-left: 20px;
+    max-width: 12vw;
+}
+
+.header-title {
+    text-align: center;
+    padding-top: 40px;
+    font-size: xx-large;
+    flex-grow: 1;
+}
+
+.header nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    margin: 10px;
+}
+
+.header nav ul li {
+    display: inline-flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.section {
+    background-color: white;
+    flex-grow: 1;
+}
+
+.footer {
+    background: #07f3d8d2;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: row;
+}
+
+.communication {
+    flex-direction: column;
+    padding-left: 150px;
+    margin-top: 12px;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    padding-left: 190px;
+}
+
+.social ul {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.social ul li {
+    display: inline-flex;
+    flex-wrap: wrap;
+    font-size: 20px;
+    padding-left: 40px;
+}
+
+.contact-us {
+    font-size: 20px;
+}
+
+.btn {
+    background-color: DodgerBlue;
+    /* Blue background */
+    border: none;
+    /* Remove borders */
+    color: white;
+    /* White text */
+    padding: 12px 16px;
+    /* Some padding */
+    font-size: 16px;
+    /* Set a font size */
+    cursor: pointer;
+    /* Mouse pointer on hover */
+}
+
+
+/* Darker background on mouse-over */
+
+.btn:hover {
+    background-color: RoyalBlue;
+}
+
+.register {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+}
+
+.infinity-info {
+    width: 40%;
+}
+
+.regisration-form {
+    border: 2cm;
+    padding-left: 5%;
+    flex-grow: 1;
+    padding-right: 5%;
+    padding-bottom: 3%;
+}
+
+.infinityInfo {
+    padding-left: 30px;
+    font-size: 1.0em;
+}
+
+.title {
+    font-size: 1.0em;
+}
+
+.details {
+    font-size: .8em;
+    font-weight: 500;
+    padding-left: 50px;
+    padding-right: 200px;
+    text-align: justify;
+}
+
+.animateInfinityTitle {
+    width: 250px;
+    height: 20px;
+    background-color: red;
+    position: relative;
+    animation: liveAnimation 20s linear 0s infinite forwards;
+}
+
+@keyframes liveAnimation {
+    0% {
+        background-color: mediumblue;
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        background-color: yellow;
+        left: 200px;
+        top: 0px;
+    }
+    50% {
+        background-color: blue;
+        left: 400px;
+        top: 0px;
+    }
+    75% {
+        background-color: green;
+        left: 800px;
+        top: 0px;
+    }
+    100% {
+        background-color: red;
+        left: 1000px;
+        top: 0px;
+    }
+}

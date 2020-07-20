@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Infinity 2021</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="../dashboard/dashboard.css">
+    <link rel="stylesheet" type="text/css" href="participants.css">
+    <script src="participants.js"></script>
+    <script>
+        $(function() {
+            $("#headerSection").load("../headerSection.html");
+            $("#footerSection").load("../footerSection.html");
+        });
+    </script>
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+
+
+</head>
+
+<body>
+    <div class="dashboard">
+        <div id="headerSection"></div>
+
+        <div class="section">
+            <div class="participantsList">
+                <h2 class="participantsTitle">Participants...</h2>
+                <div id="participants" class="pariticipants table-responsive">
+                    <table id="participantsData" class="table  table-striped .table-bordered" style="
+                    overflow-x: auto; white-space: wrap;">
+
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div id="footerSection"></div>
+    </div>
+</body>
+
+</html>
